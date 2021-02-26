@@ -21,10 +21,10 @@ require (
 	github.com/spf13/cobra v1.1.1
 	github.com/spf13/viper v1.7.1
 	github.com/status-im/keycard-go v0.0.0-20190424133014-d95853db0f48
-	github.com/stretchr/testify v1.6.1
-	github.com/tendermint/tendermint v0.33.7
-	github.com/tendermint/tm-db v0.5.1
+	github.com/stretchr/testify v1.7.0
+	github.com/tendermint/tendermint v0.34.8
+	github.com/tendermint/tm-db v0.6.4
 	github.com/tyler-smith/go-bip39 v1.0.1-0.20181017060643-dbb3b84ba2ef
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/crypto v0.0.0-20201117144127-c1f2f97bffc9
 	gopkg.in/yaml.v2 v2.3.0
 )
