@@ -33,19 +33,19 @@ jobs:
       - name: Split pkgs into 4 files
         run: split -n l/4 --additional-suffix=.txt ./pkgs.txt
       # cache multiple
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: "${{ github.sha }}-aa"
           path: ./xaa.txt
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: "${{ github.sha }}-ab"
           path: ./xab.txt
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: "${{ github.sha }}-ac"
           path: ./xac.txt
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: "${{ github.sha }}-ad"
           path: ./xad.txt
