@@ -63,7 +63,7 @@ jobs:
             .go
             .mod
             .sum
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: "${{ github.sha }}-aa"
         if: "env.GIT_DIFF != ''"
@@ -99,7 +99,7 @@ jobs:
             .go
             .mod
             .sum
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: "${{ github.sha }}-ab"
         if: "env.GIT_DIFF != ''"
@@ -135,7 +135,7 @@ jobs:
             .go
             .mod
             .sum
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: "${{ github.sha }}-ac"
         if: "env.GIT_DIFF != ''"
@@ -171,7 +171,7 @@ jobs:
             .go
             .mod
             .sum
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v3
         with:
           name: "${{ github.sha }}-ad"
         if: "env.GIT_DIFF != ''"
